@@ -1,11 +1,11 @@
 function chooseDateTime (date, time) {
   if (!(/(0[1-9]|[12]\d|3[01])\.(0[1-9]|1[012])\.(19|20)\d\d$/.test(date) && // correct date format dd.mm.yyyy
         new Date(date.replace(/(\d{2})\.(\d{2})\.(\d{4})/, '$2-$1-$3')) > new Date())) { // min date - tomorrow
-    process.exit(-1)
+    return -1
   }
 
   if (/(?:[01]\d|2[0123]):(?:[012345]\d)$/.test(time)) {
-    process.exit(0) // passed
+    return 1 // passed
   } else {
     process.exit(-2)
   }
