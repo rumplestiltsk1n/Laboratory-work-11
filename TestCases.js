@@ -11,7 +11,7 @@ function chooseDateTime (date, time) {
   }
 }
 
-console.log(chooseDateTime('20.11.2022', '12:34'))
-console.log(chooseDateTime('20 11 2022', '12:34'))
-console.log(chooseDateTime('19.11.2022', '12:34'))
-console.log(chooseDateTime('20.11.2022', '12 34'))
+chooseDateTime('20.11.2022', '12:34')
+chooseDateTime('20 11 2022', '12:34')
+chooseDateTime('19.11.2022', '12:34')
+chooseDateTime('20.11.2022', '12 34')
