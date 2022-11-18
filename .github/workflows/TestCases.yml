@@ -11,5 +11,5 @@ jobs:
         uses: github/super-linter@v4
         env:
           VALIDATE_JAVASCRIPT_STANDART: true
-          FILTER_REGEX_INCLUDE: ./*.js$
+          FILTER_REGEX_INCLUDE: ./TestCases.js$
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
