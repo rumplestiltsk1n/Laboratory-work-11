@@ -11,7 +11,7 @@ function chooseDateTime (date, time) {
   }
 }
 
-console.log('TC1.1 Result ' + chooseDateTime('20.11.2022', '12:34'))
-console.log('TC1.2 Result ' + chooseDateTime('20 11 2022', '12:34'))
-console.log('TC1.3 Result ' + chooseDateTime('19.11.2022', '12:34'))
-console.log('TC1.4 Result ' + chooseDateTime('20.11.2022', '12 34'))
+console.log(chooseDateTime('20.11.2022', '12:34'))
+console.log(chooseDateTime('20 11 2022', '12:34'))
+console.log(chooseDateTime('19.11.2022', '12:34'))
+console.log(chooseDateTime('20.11.2022', '12 34'))
