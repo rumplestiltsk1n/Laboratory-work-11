@@ -11,20 +11,7 @@ function chooseDateTime (date, time) {
   }
 }
 
-function test () {
-  const tc1 = chooseDateTime('20.11.2022', '12:34')
-  const tc2 = chooseDateTime('20 11 2022', '12:34')
-  const tc3 = chooseDateTime('19.11.2022', '12:34')
-  const tc4 = chooseDateTime('20.11.2022', '12 34')
-
-  console.log('TC1.1 Result ')
-  console.log(tc1)
-  console.log('TC1.2 Result ')
-  console.log(tc2)
-  console.log('TC1.3 Result ')
-  console.log(tc3)
-  console.log('TC1.4 Result ')
-  console.log(tc4)
-}
-
-test()
+console.log('TC1.1 Result ' + chooseDateTime('20.11.2022', '12:34'))
+console.log('TC1.2 Result ' + chooseDateTime('20 11 2022', '12:34'))
+console.log('TC1.3 Result ' + chooseDateTime('19.11.2022', '12:34'))
+console.log('TC1.4 Result ' + chooseDateTime('20.11.2022', '12 34'))
