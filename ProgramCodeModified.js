@@ -1,4 +1,4 @@
-function dateValidation () {
+function dateValidation () // missing bracket {
   // Create Date object
   let tomorrowDate = new Date() // current date
   tomorrowDate.setDate(tomorrowDate.getDate() + 1) // add 1 day to current date
