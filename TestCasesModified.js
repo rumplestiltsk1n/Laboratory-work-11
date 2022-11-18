@@ -10,7 +10,7 @@ function chooseDateTime (date, time) {
     return 0 // passed
   } else {
     console.log('-2')
-    return -2
+    return 1
   }
 }
 
