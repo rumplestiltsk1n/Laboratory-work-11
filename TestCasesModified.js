@@ -7,7 +7,7 @@ function chooseDateTime (date, time) {
   if (/(?:[01]\d|2[0123]):(?:[012345]\d)$/.test(time)) {
     return 1 // passed
   } else {
-    process.exit(-2)
+    process.exit()
   }
 }
 
